@@ -15,7 +15,9 @@
       </nav>
     </div>
     <!-- giống như hiển thị các nội dung ở các trang   -->
-    <slot />
+    <div class="container mx-auto px-4">
+      <slot />
+    </div>
     <div class="">
       <h2>this is footer</h2>
     </div>

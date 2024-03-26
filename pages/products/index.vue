@@ -4,6 +4,7 @@ mục hoặc tên file sẽ là đường dẫn ( route ) của trang đó */
 <template>
   <div>
     <h2>this is product page</h2>
+    <button class="button">click me</button>
   </div>
 </template>
 
