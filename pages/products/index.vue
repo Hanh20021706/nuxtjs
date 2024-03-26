@@ -8,18 +8,16 @@
     <div class="flex flex-wrap gap-2">
       <!-- dùng for để list ra sản phẩm  -->
       <div class="border border-gray-500 p-3" v-for="product in products">
-        <!-- dùng nuxtlink để click vào trang chi tết sản phẩm  -->
-        <NuxtLink :to="`/products/${product.id}`">
-          <h2>
-            {{ product.title }}
-          </h2>
-        </NuxtLink>
+        <!-- hiển thị component vừa tạo -->
+        <ProductCart :product="product" />
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
+import ProductCart from "../../components/productCart.vue";
+
 //fetch data
 const { data: products } = await useFetch("https://fakestoreapi.com/products");
 </script>
