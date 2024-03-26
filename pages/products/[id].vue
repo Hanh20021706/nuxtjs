@@ -7,6 +7,11 @@
 <script setup>
 // sử dụng useRoute đẻ lấy được id của sản phẩm
 const { id } = useRoute().params;
+
+// sau đó gọi chúng ở đây để sử dụng
+definePageMeta({
+  layout: "products",
+});
 </script>
 
 <style scoped></style>
