@@ -15,6 +15,14 @@ const uri = "https://fakestoreapi.com/products/" + id;
 
 const { data: product } = await useFetch(uri, { key: id });
 
+// chỉnh sủa lại thông báo error status và message
+if (!product.value) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: "Page Not Found",
+    fatal: true,
+  });
+}
 // sau đó gọi chúng ở đây để sử dụng
 definePageMeta({
   layout: "products",
