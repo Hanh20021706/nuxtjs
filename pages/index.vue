@@ -1,7 +1,9 @@
 <script setup></script>
 
 <template>
-  <div class="">hello</div>
+  <!-- cách translate -->
+  <div class="">{{ $t("title") }}</div>
+  <div class="">{{ $t("home.title") }}</div>
   <p>
     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt beatae
     laboriosam iste, incidunt quam accusantium assumenda? Quaerat totam eius

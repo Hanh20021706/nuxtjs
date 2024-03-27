@@ -4,10 +4,10 @@
     <!-- header -->
     <Header />
     <!-- giống như hiển thị các nội dung ở các trang   -->
-    <div class="container mx-auto px-4">
+    <div class="container">
       <slot />
     </div>
-    <div class="">
+    <div class="container">
       <h2>this is footer</h2>
     </div>
   </div>

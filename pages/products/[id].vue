@@ -1,6 +1,10 @@
 <template>
   <div>
     <h2>{{ product.title }}</h2>
+
+    <!-- id -->
+    <h2>id is : {{ $route.params.id }}</h2>
+    <!-- end -->
     <h2>this is product detail anh id: {{ id }}</h2>
     <img alt="" :src="product.image" class="w-[100px] h-[100px]" />
     <p>{{ product.price }}</p>
