@@ -16,8 +16,6 @@
 </template>
 
 <script setup>
-import ProductCart from "../../components/productCart.vue";
-
 //fetch data
 const { data: products } = await useFetch("https://fakestoreapi.com/products");
 </script>

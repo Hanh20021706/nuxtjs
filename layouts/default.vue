@@ -1,19 +1,8 @@
 // tạo 1 file default layout nó sẽ hiển thị ở tất cả các page
 <template>
   <div>
-    <div class="">
-      <h2>this is header</h2>
-      <nav>
-        <ul>
-          <li>
-            <NuxtLink to="/about">About</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/products">products</NuxtLink>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <!-- header -->
+    <Header />
     <!-- giống như hiển thị các nội dung ở các trang   -->
     <div class="container mx-auto px-4">
       <slot />

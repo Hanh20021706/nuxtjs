@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply max-w-[1520px] m-auto px-[200px];
+}
+
 @layer components {
   .button {
     @apply bg-black text-white px-2 py-1 rounded-md text-sm;
