@@ -2,5 +2,15 @@
   "title": "tiêu đề",
   "home": {
     "title": "tiêu đề home"
+  },
+  "header": {
+    "testVersion": "Phiên bản thử nghiệm",
+    "guide": "Hướng dẫn",
+    "vietnamese": "Tiếng Việt",
+    "english": "Tiếng Anh"
+  },
+  "user": {
+    "login": "Đăng nhập",
+    "register": "Đăng ký"
   }
 }

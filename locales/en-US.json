@@ -2,5 +2,15 @@
   "title": "title",
   "home": {
     "title": "title home"
+  },
+  "header": {
+    "testVersion": "Test version",
+    "guide": "Guide",
+    "vietnamese": "Vietnamese",
+    "english": "English"
+  },
+  "user": {
+    "login": "Login",
+    "register": "Register"
   }
 }
