@@ -3,5 +3,6 @@
 </template>
 
 <script>
-export default {};
+const { data: products } = await useFetch("/api/products");
+console.log("data", toRaw(products.value));
 </script>

@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
-
+  ssr: false,
   // i18n
   // i18n: {
   //   // Module Options
@@ -28,4 +28,16 @@ export default defineNuxtConfig({
   //     redirectOn: "all",
   //   },
   // },
+
+  // config folder server
+  vite: {
+    optimizeDeps: {
+      exclude: ["node-rfc"],
+    },
+  },
+  nitro: {
+    devProxy: {
+      host: "localhost",
+    },
+  },
 });
