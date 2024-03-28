@@ -1,0 +1,7 @@
+<template>
+  <div>post header</div>
+</template>
+
+<script setup></script>
+
+<style lang="scss" scoped></style>

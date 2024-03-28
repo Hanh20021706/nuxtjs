@@ -26,4 +26,8 @@
 
 <script setup></script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.router-link-exact-active {
+  color: red;
+}
+</style>

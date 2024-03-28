@@ -27,7 +27,11 @@ if (!product.value) {
     fatal: true,
   });
 }
-// sau đó gọi chúng ở đây để sử dụng
+/**
+ * sử dụng definePageMeta
+ * dùng để gọi, chỉ định một tham số vì nó là một object lấy tham số
+ * ở đây tôi sẽ sử dụng layout bằng các gọi tên layout mà tôi vừa tạo
+ */
 definePageMeta({
   layout: "products",
 });
